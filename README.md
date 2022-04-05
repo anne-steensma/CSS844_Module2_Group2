@@ -8,7 +8,7 @@ _Module 2 Lidar Processing.ipynb:_ Adopted code from the pdf for lidar processin
 
 _Untitled2.ipynb:_ This was code for merging and plotting all point clouds, and some visualization. The merging function did not end up needed since each numpy file is already a plot (defined by one row and one column within one folder/”id” in metadata)
 
-_RunPCA.ipynb:_ Working out code to run PCA on the data in preparation for further modelling (this needs be run on HPCC, as it will use too much RAM and crash when run in Colab)
+_RunPCA.ipynb:_ Working out code to run PCA on the data in preparation for further modelling (this needs to be run on HPCC, as it will use too much RAM and crash when run in Colab)
 
 _scree_plot_linear_regression.ipynb:_ Creates scree plots for x, y, and z PCAs (PCA run as in RunPCA.ipynb). Also has some code to do linear regression on the data (scroll down to the last cell for the model that uses the first 5 x PCs, first y PC, and first 5 z PCs).
 
