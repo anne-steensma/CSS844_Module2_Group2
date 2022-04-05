@@ -6,7 +6,7 @@ _Lidar processing for all plots and fields.ipynb:_ Looping through all plots to 
 
 _Module 2 Lidar Processing.ipynb:_ Adopted code from the pdf for lidar processing but is only for one plot. Was used as a stepping stone and first step to process all plots
 
-_Untitled2.ipynb:_ This was code for merging and plotting all point clouds, and some visaulization. The merging function did not end up needed since each numpy file is already a plot (defined by one row and one column within one folder/”id” in metadata)
+_Untitled2.ipynb:_ This was code for merging and plotting all point clouds, and some visualization. The merging function did not end up needed since each numpy file is already a plot (defined by one row and one column within one folder/”id” in metadata)
 
 _RunPCA.ipynb:_ Working out code to run PCA on the data in preparation for further modelling (this needs be run on HPCC, as it will use too much RAM and crash when run in Colab)
 
